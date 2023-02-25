@@ -1,3 +1,5 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
+
 var CURSOR;
 
 Math.lerp = (a, b, n) => (1 - n) * a + n * b;
@@ -81,5 +83,3 @@ class Cursor {
     CURSOR = new Cursor();
     // 需要重新获取列表时，使用 CURSOR.refresh()
 })();
-
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
