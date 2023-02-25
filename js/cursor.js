@@ -1,4 +1,4 @@
-var CURSOR;
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;
 
 Math.lerp = (a, b, n) => (1 - n) * a + n * b;
 
@@ -39,7 +39,7 @@ class Cursor {
                 this.pt.push(el[i].outerHTML);
 
         document.body.appendChild((this.scr = document.createElement("style")));
-        // ÕâÀï¸Ä±äÊó±êÖ¸ÕëµÄÑÕÉ« ÓÉsvgÉú³É
+        // ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½É« ï¿½ï¿½svgï¿½ï¿½ï¿½ï¿½
         this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;
     }
 
@@ -79,5 +79,5 @@ class Cursor {
 
 (() => {
     CURSOR = new Cursor();
-    // ÐèÒªÖØÐÂ»ñÈ¡ÁÐ±íÊ±£¬Ê¹ÓÃ CURSOR.refresh()
+    // ï¿½ï¿½Òªï¿½ï¿½ï¿½Â»ï¿½È¡ï¿½Ð±ï¿½Ê±ï¿½ï¿½Ê¹ï¿½ï¿½ CURSOR.refresh()
 })();
