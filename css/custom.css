@@ -7,6 +7,14 @@
   background: transparent !important;
 }
 
+.aplayer {
+  background: transparent !important;
+}
+
+#footer {
+  background: transparent !important;
+}
+
 /* 白天模式遮罩透明 */
 #footer::before {
   background: transparent !important;
